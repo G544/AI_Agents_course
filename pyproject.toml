@@ -1,0 +1,24 @@
+[project]
+name = "ai-agents"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "minsearch>=0.0.10",
+    "openai>=2.30.0",
+    "pydantic-ai>=1.73.0",
+    "python-frontmatter>=1.1.0",
+    "requests>=2.32.5",
+    "streamlit>=1.56.0",
+]
+
+[dependency-groups]
+dev = [
+    "jupyter>=1.1.1",
+]
+
+[tool.uv.workspace]
+members = [
+    "files_cleaner",
+]
