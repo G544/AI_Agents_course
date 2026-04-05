@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs and runtime artifacts
+logs/*.json
+logs/*.log
+logs/*.sqlite
+
+# Environment / secret files
+.env
+.env.*
+secrets.yml
+
+# Lockfiles and editor temporary
+*.swp
+*.swo
+
+# other
+uv.lock
